@@ -34,7 +34,7 @@ class PostController < ApplicationController
         project = {
             script: link.title,
             title: 'Reddit Podcast',
-            test: 1,
+            #test: 1,
             auditionScript: link.title,
             maxEntries: 3,
             language: 'eng-us',
