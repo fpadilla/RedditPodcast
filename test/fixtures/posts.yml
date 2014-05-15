@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  redditId: MyString
+  url: MyString
+  vbProjectId: MyString
+
+two:
+  redditId: MyString
+  url: MyString
+  vbProjectId: MyString

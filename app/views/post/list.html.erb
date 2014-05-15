@@ -1,0 +1,9 @@
+<h1>Post#list</h1>
+
+<div class="posts">
+ <% @posts.each do |link| %>
+    <div class="post">
+      <%= link_to link.title, cast_path(link.id) %> 
+    </div>
+ <% end %>
+</div>
