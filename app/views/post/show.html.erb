@@ -3,8 +3,8 @@
 <div><%= link_to @link.title, @link.url %></div>
 
 <% if !@post %>
-        <p> This Link has not been </p>
-      <%= link_to "Cast!", cast_path(params[:id]), class: "btn btn-large btn-primary" %>
+        <p> This link has not read </p>
+      <%= link_to "Cast on Voice Bunny!", cast_path(params[:id]), class: "btn btn-large btn-primary" %>
 <% elsif @post.vbReadUrl %>
     <audio controls>
       <source src="<%= @post.vbReadUrl%>" type="audio/mpeg">

@@ -21,11 +21,17 @@ end
 
 def addSpeedy( project )
     resp = @conn.post '/projects/addSpeedy.json', project
+    if ! resp.body["project"]
+        puts resp.body
+    end
     resp.body["project"]
 end 
 
 def getProject(id)
     resp = @conn.get '/projects/'+id+'.json'
+    if ! resp.body["project"]
+        puts resp.body
+    end
     resp.body["projects"][0]
 end
 
