@@ -30,7 +30,7 @@ class PostController < ApplicationController
         lifetime: 86400,
         remarks: 'I want a really friendly voice',
         syncedRecording: 1,
-        price: 15
+        price: 35
     }
     project = VoiceBunny.instance.addSpeedy(project)
     
