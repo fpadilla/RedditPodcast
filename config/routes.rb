@@ -5,6 +5,7 @@ RedditPodcast::Application.routes.draw do
 
   get 'cast/:id' => 'post#cast', as: :cast
   get 'castDone/:id' => 'post#castDone', as: :castDone
+  get 'show/:id' => 'post#show', as: :show
 
 
   # The priority is based upon order of creation: first created -> highest priority.
