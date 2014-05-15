@@ -1,4 +1,4 @@
-require "voice_bunny"
+require "lib/voice_bunny.rb"
 
 class PostController < ApplicationController
   def list
