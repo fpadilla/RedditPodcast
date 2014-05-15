@@ -21,7 +21,7 @@ class PostController < ApplicationController
     project = {
         script: @link.title,
         title: 'Reddit Podcast',
-        #test: 1,
+        test: 1,
         ping: "#{request.protocol}#{request.host_with_port}/castDone/#{link.id}",
         auditionScript: @link.title,
         maxEntries: 3,
