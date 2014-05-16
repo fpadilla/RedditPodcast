@@ -59,6 +59,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.10.0)
     multipart-post (2.0.0)
+    newrelic_rpm (3.8.1.221)
     pg (0.15.1)
     polyglot (0.3.4)
     rack (1.5.2)
@@ -131,6 +132,7 @@ DEPENDENCIES
   faraday_middleware
   jbuilder (~> 1.2)
   jquery-rails
+  newrelic_rpm
   pg (= 0.15.1)
   rails (= 4.0.1)
   rails_12factor (= 0.0.2)

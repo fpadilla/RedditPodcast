@@ -50,6 +50,9 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# NewRelic Monitor
+gem 'newrelic_rpm'
+
 # Reedit Wrapper API
 gem 'redditkit', '~> 1.0.1'
 
