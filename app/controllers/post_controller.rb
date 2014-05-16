@@ -62,4 +62,7 @@ class PostController < ApplicationController
     return @redditClient
   end
   
+  def root 
+  end
+  
 end
